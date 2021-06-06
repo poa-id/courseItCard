@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #f3f5f7;
+}
+
+.card {
+    max-width: 50%;
+    margin: auto;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #455a6431;
+}
+
+#line {
+    background-color: #e9e8e8;
+    height: 2px;
+    margin-left: -20px;
+    margin-right: -20px;
+    width: auto;
+    position: relative;
+    bottom: -150px;
+    
+}
+
+.titles {
+    color: #424242;
+}
+
+#name {
+    font-size: 2rem;
+}
+
+#twitter {
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(199, 199, 199);
+}
+
+#button {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+#bottom:hover {
+    background-color: #ffa06d
+
+    ;
+}
+
+#top {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10% 10% 0% 10%;
+}
+
+#bottom {
+    background-color: #ff6e40;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    border-radius: 0 0px 5px 5px;
+    transition: 0.5s;
+}
+
+
+
+#profile {
+    border-radius: 50%;
+    height: 250px;
+    border: 6px solid whitesmoke;
+    position: relative;
+    margin-top: 25px;
+}
+
+@media (max-width: 700px) {
+    #profile {
+        height: 150px;
+    }
+}
